@@ -1,0 +1,97 @@
+.orbitron-font {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    /* background-color: darkslategray;  */
+}
+#heading {
+    font-weight: 900;
+    font-size: xx-large;
+    margin-bottom: 0;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 350px;
+    height: 550px;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #001524;
+}
+.display {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgb(237, 245, 201);
+    height: 80px;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Orbitron";
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;;
+    flex-wrap: wrap;
+    gap: 7px 7px;
+    font-weight: 700;
+    font-size: x-large;
+}
+.operator {
+    background-color: #FF7D00;
+    color: white;
+}
+.button {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    cursor: default;
+}
+.clear {
+    display: flex; 
+    background-color: #FFECD1;
+    color: black;
+    width: 165px;
+    border-radius: 5%;
+}
+.clear:active {
+    background-color: #fabc65;
+}
+.backspace {
+    display: flex;
+    background-color: #78290F;
+    width: 165px;
+    color: white;
+    border-radius: 5%;
+}
+.backspace:active {
+    background-color: #c55b37;
+}
+.number {
+    background-color: #15616D;
+    color: white;
+}
+.number:active {
+    background-color: #2ac1d8;
+    color: white;
+}
+.operator:active {
+    background-color: #ffb978;
+    color: white;
+}
